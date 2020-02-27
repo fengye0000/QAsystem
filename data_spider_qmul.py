@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # coding: utf-8
-# File: data_spider.py
-# Author: lhy<lhy_in_blcu@126.com,https://huangyong.github.io>
-# Date: 18-10-3
+# author: fengye
+# Date: 20-02-20
 
 
 #import urllib.request
@@ -18,113 +17,7 @@ catagplory_list = {'computer-and-data-science','business-and-management',}
 catagplory_pre = 'https://www.qmul.ac.uk/study/'
 content_pre = 'https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/'
 url = 'https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/biochemistry/'
-content = '''
-<html>
-<body>
-<div class="tabs" id="structure-tabs">
-<div class="tab tab-y0 prose" id="zero">
-<h3 class="year">Year 0</h3>
-<p>Foundation</p>
-<p>One Year-long double module allocated based on previous maths qualifications:</p>
-<ul>
-<li>Mathematics A&nbsp; or</li>
-<li>Mathematics B</li>
-</ul>
-<p>Semester 1</p>
-<h4><strong>Compulsory</strong></h4>
-<ul>
-<li>Computing</li>
-<li>Essential Foundation Mathematics</li>
-<li>Communication in Science and Technology</li>
-</ul>
-<p>Semester 2</p>
-<h4><strong>Compulsory</strong></h4>
-<ul>
-<li>Digital Electronics and Computer Systems</li>
-<li>Introduction to Business Information Systems</li>
-<li>Discrete Mathematics</li>
-</ul>
-<p class="module-change">Please note that all modules are subject to change.</p></div>
-<div class="tab tab-y1 prose" id="first">
-<h3 class="year">Year 1</h3>
-<ul>
-<li>Automata and Formal Languages</li>
-<li>Calculus I</li>
-<li>Calculus II</li>
-<li>Geometry I</li>
-<li>Numbers, Sets and Functions</li>
-<li>Object Oriented Programming</li>
-<li>Procedural Programming</li>
-<li>Professional and Research Practice</li>
-</ul>
-<p class="module-change">Please note that all modules are subject to change.</p></div><div class="tab tab-y2 prose" id="second">
-<h3 class="year">Year 2</h3>
-<h4>Compulsory</h4>
-<ul>
-<li>Algorithms and Data Structures in an Object Oriented Framework</li>
-<li>Database Systems</li>
-<li>Introduction to Probability</li>
-<li>Linear Algebra I</li>
-</ul>
-<h4>Choose one from</h4>
-<ul>
-<li>Calculus III</li>
-<li>Internet Protocols and Applications</li>
-<li>Probability Models</li>
-<li>Software Engineering</li>
-</ul>
-<h4>Choose&nbsp;from</h4>
-<ul>
-<li>Introduction to Algebra</li>
-<li>Introduction to Statistics</li>
-</ul>
-<h4>Choose two from</h4>
-<ul>
-<li>Algebraic Structures I</li>
-<li>Complex Variables</li>
-<li>Graphical User Interfaces</li>
-<li>Operating Systems</li>
-<li>Software Engineering Project</li>
-</ul>
-<p class="module-change">Please note that all modules are subject to change.</p></div><div class="tab tab-y3 prose" id="third">
-<h3 class="year">Year 3</h3>
-<h4>Compulsory</h4>
-<ul>
-<li>Computability, Complexity and Algorithms</li>
-<li>Project</li>
-</ul>
-<h4>Choose two from</h4>
-<ul>
-<li>Big Data Processing</li>
-<li>Calculus III</li>
-<li>Chaos and Fractals</li>
-<li>Combinatorics</li>
-<li>Computer Graphics</li>
-<li>Entrepreneurship in Information Technology</li>
-<li>Linear Algebra II</li>
-<li>Semi-Structured Data and Advanced Data Modelling</li>
-<li>Web Programming</li>
-</ul>
-<h4>Choose three from</h4>
-<ul>
-<li>Algebraic Structures I</li>
-<li>Artificial Intelligence</li>
-<li>Bayesian Decision and Risk Analysis</li>
-<li>C++ for Image processing</li>
-<li>Coding Theory</li>
-<li>Communicating and Teaching Computing (UAS)</li>
-<li>Complex Variables</li>
-<li>Digital Media and Social Networks</li>
-<li>Distributed Systems</li>
-<li>Interaction Design</li>
-<li>Number Theory</li>
-<li>Security Engineering</li>
-</ul>
-<p class="module-change">Please note that all modules are subject to change.</p></div></div></div><div class="column-item container container--sm"><h2 class="th-s2 text-blue my-4">Study options</h2><div class="prose"><p>Apply for this degree with any of the following options. Take care to use the correct UCAS code - it may not be possible to change your selection later.</p></div>
-</body>
-</html>
-'''
-#url = catagplory_pre + 'business-and-management'
+
 # 获取单个页面
 def get_html(url):
     try :
@@ -200,7 +93,7 @@ def content_pair_parser(content,full_xpath):
     courses = html.xpath(full_xpath)
     pair = ''
     for i in range(len(courses)-1):
-        course[i+1]=course[i+1].replace("'","\\'")
+        courses[i+1]=courses[i+1].replace("'","\\'")
         pair= pair+'%s:%s|'%(courses[i],courses[i+1])
         i=i+2
     pair = str(pair)
@@ -332,10 +225,7 @@ def bunch_parse(catagplory_pre,dbtable):
             
 
     fp.close
-# except IOError:
-#     print('error in open: %s'%filename)
-#     fp.close
-    
+
 
 # project_dict = get_detail(' https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/chemistry','chemistry')
 # dbconn(project_dict,'project')
