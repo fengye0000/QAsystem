@@ -22,7 +22,7 @@ class GraphModel:
         modules = []
 
         program_option_infos = []
-        program_option_info = []
+        
         # 构建节点关系
         rels_program_contain_module = []
         rels_has_option = []
@@ -52,10 +52,12 @@ class GraphModel:
         # for program_option in result:
         #     program_options += program_option
         
-        sql5 = 'SELECT %s from %s '%('project_name, degree, duration, start, ucas, insititution_code, uk_fees, international_fees, entry_requirement',self.table)
+        sql5 = 'SELECT %s from %s '%('project_name, degree, duration, start, ucas, institution_code, uk_fees, international_fees, entry_requirement',self.table)
         result = self.dbconn(sql5)
+        print(len(result))
         for row in result:
-            program_options += row[0]
+            program_option_info = {}
+            # program_options += row[0]
             program_option_info['name'] = row[0]
             program_option_info['degree'] = row[1]
             program_option_info['duration'] = row[2]
@@ -66,6 +68,8 @@ class GraphModel:
             program_option_info['international_fees'] = row[7]
             program_option_info['entry_requirement'] = row[8]
             program_option_infos.append(program_option_info)
+            # print(program_option_infos)
+            print(len(program_option_infos))
 
             
         sql6 = 'SELECT %s from %s '%(' program, school',self.table)
@@ -73,15 +77,16 @@ class GraphModel:
         for row in result:
             rels_belongsto_school.append([row[0],row[1]])
         
-        sql7 = 'SELECT %s from %s '%('program, courses',self.table)
+        sql7 = 'SELECT %s from %s where project_name = "world-history"'%('program, courses',self.table)
         result = self.dbconn(sql7)
         for row in result:
-            module = row[0].split(',')
+            module = row[1].split(',')
             for m in module:
                 # print(m,type(m))
                 if m[-2:] == 'or':
                     m = m[:-2]
                 m = m.strip()
+                # print(m)
                 modules += [m]
                 rels_program_contain_module.append([row[0],m])
 
@@ -99,12 +104,16 @@ class GraphModel:
             for ci in tmp:
                 # print(ci,type(ci))
                 ci = ci.strip()
+                if ci == 'foundation':
+                    continue
                 cataglories += [ci]
                 #print(cataglories)
                 rels_belongsto_cataglory.append([row[0],ci])
-
-        # print(set(modules))
-        print(rels_has_option)
+        # for program_option_info in program_option_infos:
+        #     print(program_option_info)
+        print(program_option_infos)
+        # print(rels_has_option)
+        # print(rels_belongsto_school)
         return set(schools), set(cataglories), set(programs), set(program_options), set(modules),rels_program_contain_module, rels_has_option, rels_belongsto_school, rels_belongsto_cataglory, program_option_infos
 
     def dbconn(self,sql):
@@ -146,9 +155,8 @@ class GraphModel:
             edge = edge.split('###')
             p = edge[0]
             q = edge[1]
-            query = "match(p:%s),(q:%s) where p.name='%s'and q.name='%s' create (p)-[rel:%s{name:'%s'}]->(q)" % (
-                start_node, end_node, p, q, rel_type, rel_name)
-            print(query)
+            query = "match(p:%s),(q:%s) where p.name='%s'and q.name='%s' create (p)-[rel:%s{name:'%s'}]->(q)" % (start_node, end_node, p, q, rel_type, rel_name)
+            # print(qxuery)
             try:
                 self.g.run(query)
                 count += 1
@@ -158,14 +166,14 @@ class GraphModel:
         return
 
     '''创建知识图谱中心疾病的节点'''
-    def create_diseases_nodes(self, disease_infos):
+    def create_program_option_nodes(self, program_option_infos):
         count = 0
-        for disease_dict in disease_infos:
-            node = Node("Disease", name=disease_dict['name'], desc=disease_dict['desc'],
-                        prevent=disease_dict['prevent'] ,cause=disease_dict['cause'],
-                        easy_get=disease_dict['easy_get'],cure_lasttime=disease_dict['cure_lasttime'],
-                        cure_department=disease_dict['cure_department']
-                        ,cure_way=disease_dict['cure_way'] , cured_prob=disease_dict['cured_prob'])
+        for program_option_info in program_option_infos:
+            node = Node("Program-option", name=program_option_info['name'], degree=program_option_info['degree'],
+                        duration=program_option_info['duration'] ,start=program_option_info['start'],
+                        ucas= program_option_info['ucas'],insititution_code=program_option_info['insititution_code'],
+                        uk_fees=program_option_info['uk_fees']
+                        ,international_fees=program_option_info['international_fees'] , entry_requirement=program_option_info['entry_requirement'])
             self.g.create(node)
             count += 1
             print(count)
@@ -174,17 +182,17 @@ class GraphModel:
     '''创建知识图谱实体节点类型schema'''
     def create_graphnodes(self):
         schools, cataglories, programs, program_options, modules, rels_program_contain_module, rels_has_option, rels_belongsto_school, rels_belongsto_cataglory, program_option_infos = self.read_nodes()
-        # self.create_diseases_nodes(disease_infos)
+        self.create_program_option_nodes(program_option_infos)
         self.create_node('School', schools)
-        print(len(schools))
+        print('School:',len(schools))
         self.create_node('Cataglory', cataglories)
-        print(len(cataglories))
+        print('Cataglory',len(cataglories))
         self.create_node('Program', programs)
-        print(len(programs))
-        self.create_node('Program_option', program_options)
-        print(len(program_options))
+        print('Program',len(programs))
+        # self.create_node('Program_option', program_options)
+        # print('Program_option',len(program_options))
         self.create_node('Module', modules)
-        print(len(modules))
+        print('Module',len(modules))
         # self.create_node('Symptom', Symptoms)
         return
 
@@ -193,8 +201,8 @@ class GraphModel:
     '''创建实体关系边'''
     def create_graphrels(self):
         schools, cataglories, programs, program_options, modules, rels_program_contain_module, rels_has_option, rels_belongsto_school, rels_belongsto_cataglory, program_option_infos = self.read_nodes()
-        self.create_relationship('School', 'Program', rels_belongsto_school, 'belongs_to', 'belongsto_school')
-        self.create_relationship('Program', 'Program_option', rels_has_option, 'has', 'has')
+        self.create_relationship('Program', 'School', rels_belongsto_school, 'belongs_to', 'belongsto_school')
+        self.create_relationship('Program', 'Program_option', rels_has_option, 'has', 'has_option')
         self.create_relationship('Program', 'Module', rels_program_contain_module, 'taught', 'taught')
         self.create_relationship('Program', 'Cataglory', rels_belongsto_cataglory, 'belongs_to', 'belongsto_cataglory')
         
@@ -204,4 +212,4 @@ if __name__ == '__main__':
     handler.read_nodes()
     # handler.create_graphnodes()
     # handler.create_graphrels()
-    # handler.export_data()
+    # # handler.export_data()

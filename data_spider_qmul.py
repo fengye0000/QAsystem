@@ -21,7 +21,10 @@ url = 'https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/biochemist
 # 获取单个页面
 def get_html(url):
     try :
-        with request.urlopen(url) as f:
+        headers = {'User-Agent':'Mozilla/5.0'}
+        res = request.Request(url=url, headers =headers)
+        # prin(url)
+        with request.urlopen(res) as f:
             print('Enter url: ' + url)
             data = f.read()
             content = data.decode('UTF-8')
@@ -120,7 +123,7 @@ def get_full_courses(url):
             continue
     store('areas_courses.json', str(areas_courses),'w+')
 
-def get_detail(url,cataglory):
+def get_detail(url,cataglory,desc):
     try:
         content = get_html(url)
         #解析一下URL当projectname
@@ -137,6 +140,10 @@ def get_detail(url,cataglory):
             tmp = tmp.strip()
             tmp = tmp.replace(' ','-')
             p = project_bean.Project(tmp)
+            p.cataglory_desc = desc#/html/body/section[6]/div/div/div[1]/p[1]/text()grid grid--offset-xl-2-l
+            project_desc = content_parser(content,'//*[@class="grid grid--offset-xl-2-l"]/*/p/text()')
+            # print(project_desc)
+            p.project_desc = ' '.join(project_desc)
             entryrequirement = content_pair_parser(content,'//*[@id="entry-requirements"]/div/div[2]/div/div[%s]/div[2]//*/tbody/tr/td/text()'%i)
             content_obj_parser(content,'/html/body/section[3]/div/div[1]/section[%s]/div/div/dl/*/text()'%i,p)
             p.cataglory = cataglory
@@ -155,14 +162,16 @@ def dbconn(project_dict,table):
     cursor = db.cursor()
     # SQL 插入语句
     j=0
+    if type(project_dict) == 'NoneType':
+        return 
     for key in project_dict:
         details=project_dict[key]
         ucas = details.ucas
         error_code = '(1062, "Duplicate entry \'%s\' for key \'PRIMARY\'")'%ucas.upper()
         sql = """INSERT INTO %s(project_name,degree,duration
-            , start, ucas, institution_code,typical_Alevel_offer, uk_fees, international_fees, school, courses, entry_requirement, cataglory, program)
-            VALUES ('%s','%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
-            """%(table,details.project_name,details.degree,details.duration,details.start,details.ucas,details.institution_code,details.typical_Alevel_offer,details.uk_fees,details.international_fees,details.school,details.courses,details.entry_requirement,details.cataglory,details.program)
+            , start, ucas, institution_code,typical_Alevel_offer, uk_fees, international_fees, school, courses, entry_requirement, cataglory, program, cataglory_desc, project_desc)
+            VALUES ('%s','%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
+            """%(table,details.project_name,details.degree,details.duration,details.start,details.ucas,details.institution_code,details.typical_Alevel_offer,details.uk_fees,details.international_fees,details.school,details.courses,details.entry_requirement,details.cataglory,details.program, details.cataglory_desc,details.project_desc)
         try:
             # 执行sql语句
             print(sql)
@@ -206,6 +215,15 @@ def dbconn(project_dict,table):
     # 关闭数据库连接 
     db.close()
 
+def cata_desc(url,xpath1,xpath2):
+    content = get_html(url)
+    descs = content_parser(content,xpath1)  
+    # print(descs)
+    if len(descs)==0:
+        descs = content_parser(url,xpath2)
+        return ' '.join(descs)
+    else:
+        return ' '.join(descs)
 def bunch_parse(catagplory_pre,dbtable):
     filename = 'areas_courses.json'
 #try:
@@ -216,17 +234,20 @@ def bunch_parse(catagplory_pre,dbtable):
     for key in content:
         values = content[key]
         cata = key[len(catagplory_pre):]
+        # print(key)
+        desc = cata_desc(key,'/html/body/section/div[3]/div[2]/section/p/text()','/html/body/section/div[3]/div[2]/section/p/*/text()')
+        # print(desc)
         for value in values:
-        # try:
-            project_dict = get_detail(value,cata)
-            dbconn(project_dict,dbtable)
-        # except Exception as e:
-            print('get detail wrong')
+            try:
+                project_dict = get_detail(value,cata,desc)
+                dbconn(project_dict,dbtable)
+            except Exception as e:
+                print('get detail wrong')
             
 
     fp.close
 
 
-# project_dict = get_detail(' https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/chemistry','chemistry')
-# dbconn(project_dict,'project')
+# project_dict = get_detail(' https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/biochemistry','chemistry','ss')
+# # dbconn(project_dict,'project')
 bunch_parse(catagplory_pre,'project_copy1')
