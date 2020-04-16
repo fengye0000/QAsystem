@@ -47,10 +47,10 @@ class GraphModel:
         for program in result:
             programs += program
         
-        # sql4 = 'SELECT %s from %s '%('project_name',self.table)
-        # result = self.dbconn(sql4)
-        # for program_option in result:
-        #     program_options += program_option
+        sql4 = 'SELECT %s from %s '%('project_name',self.table)
+        result = self.dbconn(sql4)
+        for program_option in result:
+            program_options += program_option
         
         sql5 = 'SELECT %s from %s '%('project_name, degree, duration, start, ucas, institution_code, uk_fees, international_fees, entry_requirement',self.table)
         result = self.dbconn(sql5)
@@ -193,7 +193,7 @@ class GraphModel:
         # print('Program_option',len(program_options))
         self.create_node('Module', modules)
         print('Module',len(modules))
-        # self.create_node('Symptom', Symptoms)
+        # self.create_node('rel', rels)
         return
 
 
@@ -205,11 +205,42 @@ class GraphModel:
         self.create_relationship('Program', 'Program_option', rels_has_option, 'has', 'has_option')
         self.create_relationship('Program', 'Module', rels_program_contain_module, 'taught', 'taught')
         self.create_relationship('Program', 'Cataglory', rels_belongsto_cataglory, 'belongs_to', 'belongsto_cataglory')
-        
+    
+    def export_data(self):
+        schools, cataglories, programs, program_options, modules, rels_program_contain_module, rels_has_option, rels_belongsto_school, rels_belongsto_cataglory, program_option_infos = self.read_nodes()
+        f_school = open('school.txt', 'w+')
+        f_cataglorie = open('cataglorie.txt', 'w+')
+        f_program = open('program.txt', 'w+')
+        f_program_option = open('program_option.txt', 'w+')
+        f_module = open('module.txt', 'w+')
+        # f_rel = open('rels.txt', 'w+')
+        # f_disease = open('disease.txt', 'w+')
+        for item in program_options:
+            item = item.replace("-"," ")
+
+        f_school.write('\n'.join(list(schools)))
+        f_cataglorie.write('\n'.join(list(cataglories)))
+        f_program.write('\n'.join(list(programs)))
+        f_program_option.write('\n'.join(list(program_options)))
+        f_module.write('\n'.join(list(modules)))
+        # f_rel.write('\n'.join(list(rels)))
+        # f_disease.write('\n'.join(list(Diseases)))
+
+        f_school.close()
+        f_cataglorie.close()
+        f_program.close()
+        f_program_option.close()
+        f_module.close()
+        # f_rel.close()
+        # f_disease.close()
+
+        return
+
 
 if __name__ == '__main__':
     handler = GraphModel()
-    handler.read_nodes()
-    # handler.create_graphnodes()
-    # handler.create_graphrels()
+    # handler.read_nodes()
+    handler.export_data()
+    handler.create_graphnodes()
+    handler.create_graphrels()
     # # handler.export_data()
