@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-from flask import Flask,jsonify,render_template
+from flask import Flask,jsonify,render_template,request
 import json
  
 app = Flask(__name__)#实例化app对象
  
 testInfo = {}
  
-@app.route('/test_post/nn',methods=['GET','POST'])#路由
+@app.route('/_test_post',methods=['GET','POST'])#路由
 def test_post():
-    testInfo['name'] = 'xiaoming'
-    testInfo['age'] = '28'
-    return json.dumps(testInfo)
+    data = request.form.get("query")
+    print(data)
+    return json.dumps(data)
  
 @app.route('/')
 def hello_world():

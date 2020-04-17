@@ -157,13 +157,9 @@ function send(text) {
 	// calls the method newReceivedMessage with the response from API.AI
 	$.ajax({
 		type: "POST",
-		url: baseUrl + "query?v=20150910",
-		contentType: "application/json; charset=utf-8",
-		dataType: "json",
-		headers: {
-			"Authorization": "Bearer " + accessToken
-		},
-		data: JSON.stringify({ query: text, lang: "en", sessionId: "somerandomthing" }),
+		url: "/_test_post",
+		contentType: "application/x-www-form-urlencoded",
+		data: text,
 		success: function(data) {
             console.log(data);
 		
