@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 from flask import Flask,jsonify,render_template,request
 import json
- 
+import sys
+from sample import nluparser,fuzzy
+
 app = Flask(__name__)#实例化app对象
  
 testInfo = {}
@@ -10,12 +12,14 @@ testInfo = {}
 def test_post():
     data = request.form.get("query")
     print(data)
-    return json.dumps(data)
+    ans = nluparser(data)
+    return json.dumps(ans)
  
 @app.route('/')
 def hello_world():
-    return 'Hello !'
- 
+    ans = nluparser("hi")
+    return ans
+
 @app.route('/index')
 def index():
     return render_template('index.html')

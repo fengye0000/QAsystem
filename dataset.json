@@ -1,0 +1,930 @@
+{
+  "entities": {
+    "attribution": {
+      "automatically_extensible": true,
+      "data": [],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "detail": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "duration"
+        },
+        {
+          "synonyms": [
+            "payment"
+          ],
+          "value": "fee"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "module": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [],
+          "value": "data mining"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    },
+    "program": {
+      "automatically_extensible": true,
+      "data": [
+        {
+          "synonyms": [
+            "cs"
+          ],
+          "value": "computer-science"
+        },
+        {
+          "synonyms": [],
+          "value": "history"
+        },
+        {
+          "synonyms": [
+            "ee"
+          ],
+          "value": "electronic-engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "creative-computing"
+        },
+        {
+          "synonyms": [],
+          "value": "electrical and electronic engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "politics with business management"
+        },
+        {
+          "synonyms": [],
+          "value": "software engineering for business"
+        },
+        {
+          "synonyms": [],
+          "value": "mathematics"
+        },
+        {
+          "synonyms": [],
+          "value": "aerospace engineering with management"
+        },
+        {
+          "synonyms": [],
+          "value": "politics and sociology"
+        },
+        {
+          "synonyms": [],
+          "value": "politics and international relations"
+        },
+        {
+          "synonyms": [],
+          "value": "linguistics"
+        },
+        {
+          "synonyms": [],
+          "value": "international foundation programme in business and management"
+        },
+        {
+          "synonyms": [],
+          "value": "astrophysics"
+        },
+        {
+          "synonyms": [],
+          "value": "pharmaceutical chemistry"
+        },
+        {
+          "synonyms": [],
+          "value": "economics and politics"
+        },
+        {
+          "synonyms": [],
+          "value": "mechanical engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "global health"
+        },
+        {
+          "synonyms": [],
+          "value": "biomaterials for biomedical sciences"
+        },
+        {
+          "synonyms": [],
+          "value": "english language and linguistics"
+        },
+        {
+          "synonyms": [],
+          "value": "mathematics with finance and accounting"
+        },
+        {
+          "synonyms": [],
+          "value": "accounting and management"
+        },
+        {
+          "synonyms": [],
+          "value": "economics"
+        },
+        {
+          "synonyms": [],
+          "value": "pharmacology and innovative therapeutics"
+        },
+        {
+          "synonyms": [],
+          "value": "theoretical physics"
+        },
+        {
+          "synonyms": [],
+          "value": "zoology"
+        },
+        {
+          "synonyms": [],
+          "value": "financial mathematics"
+        },
+        {
+          "synonyms": [],
+          "value": "aerospace engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "geography ba"
+        },
+        {
+          "synonyms": [],
+          "value": "english literature and linguistics"
+        },
+        {
+          "synonyms": [],
+          "value": "graduate diploma in finance and economics"
+        },
+        {
+          "synonyms": [],
+          "value": "environmental science"
+        },
+        {
+          "synonyms": [],
+          "value": "graduate diploma in humanities and social sciences"
+        },
+        {
+          "synonyms": [],
+          "value": "mathematics and statistics"
+        },
+        {
+          "synonyms": [],
+          "value": "dental materials"
+        },
+        {
+          "synonyms": [],
+          "value": "comparative literature and film studies"
+        },
+        {
+          "synonyms": [],
+          "value": "physics with astrophysics"
+        },
+        {
+          "synonyms": [],
+          "value": "materials science and engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "environmental science with business management"
+        },
+        {
+          "synonyms": [],
+          "value": "biology"
+        },
+        {
+          "synonyms": [],
+          "value": "psychology"
+        },
+        {
+          "synonyms": [],
+          "value": "computer science"
+        },
+        {
+          "synonyms": [],
+          "value": "neuroscience"
+        },
+        {
+          "synonyms": [],
+          "value": "biomedical engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "materials and design"
+        },
+        {
+          "synonyms": [],
+          "value": "comparative literature and linguistics"
+        },
+        {
+          "synonyms": [],
+          "value": "creative computing"
+        },
+        {
+          "synonyms": [],
+          "value": "biochemistry"
+        },
+        {
+          "synonyms": [],
+          "value": "materials science and engineering with management"
+        },
+        {
+          "synonyms": [],
+          "value": "geography with business management"
+        },
+        {
+          "synonyms": [],
+          "value": "sustainable energy engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "physics with particle physics"
+        },
+        {
+          "synonyms": [],
+          "value": "film studies and drama"
+        },
+        {
+          "synonyms": [],
+          "value": "medical genetics"
+        },
+        {
+          "synonyms": [],
+          "value": "computer science and mathematics"
+        },
+        {
+          "synonyms": [],
+          "value": "biomedical sciences"
+        },
+        {
+          "synonyms": [],
+          "value": "economics and finance"
+        },
+        {
+          "synonyms": [],
+          "value": "genetics"
+        },
+        {
+          "synonyms": [],
+          "value": "pure mathematics"
+        },
+        {
+          "synonyms": [],
+          "value": "international relations"
+        },
+        {
+          "synonyms": [],
+          "value": "mechanical engineering with management"
+        },
+        {
+          "synonyms": [],
+          "value": "electronic engineering and telecommunications"
+        },
+        {
+          "synonyms": [],
+          "value": "chemistry"
+        },
+        {
+          "synonyms": [],
+          "value": "mathematics with actuarial science"
+        },
+        {
+          "synonyms": [],
+          "value": "politics"
+        },
+        {
+          "synonyms": [],
+          "value": "english language"
+        },
+        {
+          "synonyms": [],
+          "value": "accounting and finance"
+        },
+        {
+          "synonyms": [],
+          "value": "comparative literature"
+        },
+        {
+          "synonyms": [],
+          "value": "electronic engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "economics and international finance"
+        },
+        {
+          "synonyms": [],
+          "value": "mathematics with statistics"
+        },
+        {
+          "synonyms": [],
+          "value": "medieval history"
+        },
+        {
+          "synonyms": [],
+          "value": "human geography"
+        },
+        {
+          "synonyms": [],
+          "value": "chemical engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "mathematics with management"
+        },
+        {
+          "synonyms": [],
+          "value": "international foundation programme in humanities and social sciences"
+        },
+        {
+          "synonyms": [],
+          "value": "film studies"
+        },
+        {
+          "synonyms": [],
+          "value": "finance"
+        },
+        {
+          "synonyms": [],
+          "value": "drama"
+        },
+        {
+          "synonyms": [],
+          "value": "marketing and management"
+        },
+        {
+          "synonyms": [],
+          "value": "geography bsc"
+        },
+        {
+          "synonyms": [],
+          "value": "physics"
+        },
+        {
+          "synonyms": [],
+          "value": "robotics engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "computer systems engineering"
+        },
+        {
+          "synonyms": [],
+          "value": "world history"
+        },
+        {
+          "synonyms": [],
+          "value": "biomedical engineering with management"
+        },
+        {
+          "synonyms": [],
+          "value": "business management"
+        }
+      ],
+      "matching_strictness": 1.0,
+      "use_synonyms": true
+    }
+  },
+  "intents": {
+    "GetCommonModule": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "The common modules between "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "eletrical engineering"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are common modules between "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "eletrical engineering"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What do "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "eletrical engineering"
+            },
+            {
+              "text": " programs have in common?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What have "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " and "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "eletrical engineering"
+            },
+            {
+              "text": " got in common?"
+            }
+          ]
+        }
+      ]
+    },
+    "GetEntryRequirement": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is the entry quirement of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The entry quirement of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the standard entry requirements of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "GetModule": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "All modules in "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " program"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me all modules in "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " please"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What classes do "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " have?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What modules do "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " program have?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What are the modules in "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "GetProgramDetail": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is the "
+            },
+            {
+              "entity": "attribution",
+              "slot_name": "detail",
+              "text": "duration"
+            },
+            {
+              "text": " of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " ?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The "
+            },
+            {
+              "entity": "attribution",
+              "slot_name": "detail",
+              "text": "duration"
+            },
+            {
+              "text": " in the "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        }
+      ]
+    },
+    "GetProgrambyModule": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What programs contain "
+            },
+            {
+              "entity": "module",
+              "slot_name": "module",
+              "text": "data mining"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What programs include "
+            },
+            {
+              "entity": "module",
+              "slot_name": "module",
+              "text": "data mining"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Which programs contain "
+            },
+            {
+              "entity": "module",
+              "slot_name": "module",
+              "text": "data mining"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The programs including "
+            },
+            {
+              "entity": "module",
+              "slot_name": "module",
+              "text": "data mining"
+            },
+            {
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    "GetProgramduration": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "How long will the "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " take?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How long is "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        }
+      ]
+    },
+    "GetProgramfee": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "How much will the "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " program cost?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "How much should I pay for "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " program?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The payment of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The cost of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        }
+      ]
+    },
+    "GetRelatedProgram": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "related program of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Give me related program of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "Eletical Engineering"
+            }
+          ]
+        }
+      ]
+    },
+    "GetprogramIntro": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What about "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Introduction of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        }
+      ]
+    },
+    "Intro": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "hi"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "hello"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "who are you?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "what can you do?"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "language": "en"
+}

@@ -52,7 +52,7 @@ class GraphModel:
         for program_option in result:
             program_options += program_option
         
-        sql5 = 'SELECT %s from %s '%('project_name, degree, duration, start, ucas, institution_code, uk_fees, international_fees, entry_requirement',self.table)
+        sql5 = 'SELECT %s from %s '%('project_name, degree, duration, start, ucas, institution_code, uk_fees, international_fees, entry_requirement, project_desc','viewwithdesc')
         result = self.dbconn(sql5)
         print(len(result))
         for row in result:
@@ -67,6 +67,7 @@ class GraphModel:
             program_option_info['uk_fees'] = row[6]
             program_option_info['international_fees'] = row[7]
             program_option_info['entry_requirement'] = row[8]
+            program_option_info['project_desc'] = row[9]
             program_option_infos.append(program_option_info)
             # print(program_option_infos)
             print(len(program_option_infos))
@@ -77,7 +78,7 @@ class GraphModel:
         for row in result:
             rels_belongsto_school.append([row[0],row[1]])
         
-        sql7 = 'SELECT %s from %s where project_name = "world-history"'%('program, courses',self.table)
+        sql7 = 'SELECT %s from %s '%('program, courses',self.table)
         result = self.dbconn(sql7)
         for row in result:
             module = row[1].split(',')
@@ -94,6 +95,7 @@ class GraphModel:
         result = self.dbconn(sql8)
         for row in result:
             rels_has_option.append([row[0],row[1]])
+        # print(rels_has_option)
 
         sql9 = 'SELECT %s from %s '%('program, cataglory',self.table)
         result = self.dbconn(sql9)
@@ -111,7 +113,7 @@ class GraphModel:
                 rels_belongsto_cataglory.append([row[0],ci])
         # for program_option_info in program_option_infos:
         #     print(program_option_info)
-        print(program_option_infos)
+        # print(program_option_infos)
         # print(rels_has_option)
         # print(rels_belongsto_school)
         return set(schools), set(cataglories), set(programs), set(program_options), set(modules),rels_program_contain_module, rels_has_option, rels_belongsto_school, rels_belongsto_cataglory, program_option_infos
@@ -169,7 +171,7 @@ class GraphModel:
     def create_program_option_nodes(self, program_option_infos):
         count = 0
         for program_option_info in program_option_infos:
-            node = Node("Program-option", name=program_option_info['name'], degree=program_option_info['degree'],
+            node = Node("Program_option", name=program_option_info['name'], degree=program_option_info['degree'],
                         duration=program_option_info['duration'] ,start=program_option_info['start'],
                         ucas= program_option_info['ucas'],insititution_code=program_option_info['insititution_code'],
                         uk_fees=program_option_info['uk_fees']
@@ -208,12 +210,12 @@ class GraphModel:
     
     def export_data(self):
         schools, cataglories, programs, program_options, modules, rels_program_contain_module, rels_has_option, rels_belongsto_school, rels_belongsto_cataglory, program_option_infos = self.read_nodes()
-        f_school = open('school.txt', 'w+')
-        f_cataglorie = open('cataglorie.txt', 'w+')
-        f_program = open('program.txt', 'w+')
-        f_program_option = open('program_option.txt', 'w+')
-        f_module = open('module.txt', 'w+')
-        # f_rel = open('rels.txt', 'w+')
+        f_school = open('datadict/school.txt', 'w+')
+        f_cataglorie = open('datadict/cataglorie.txt', 'w+')
+        f_program = open('datadict/program.txt', 'w+')
+        f_program_option = open('datadict/program_option.txt', 'w+')
+        f_module = open('datadict/module.txt', 'w+')
+        # f_rel = open('datadict/rels.txt', 'w+')
         # f_disease = open('disease.txt', 'w+')
         for item in program_options:
             item = item.replace("-"," ")
@@ -223,7 +225,7 @@ class GraphModel:
         f_program.write('\n'.join(list(programs)))
         f_program_option.write('\n'.join(list(program_options)))
         f_module.write('\n'.join(list(modules)))
-        # f_rel.write('\n'.join(list(rels)))
+        # f_rel.write('\n'.join(list(rels_has_option)))
         # f_disease.write('\n'.join(list(Diseases)))
 
         f_school.close()

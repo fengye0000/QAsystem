@@ -159,12 +159,12 @@ function send(text) {
 		type: "POST",
 		url: "/_test_post",
 		contentType: "application/x-www-form-urlencoded",
-		data: text,
+		data: {"query":text},
 		success: function(data) {
             console.log(data);
 		
 		// Pass the response into the method 
-		newRecievedMessage(JSON.stringify(data.result.fulfillment.speech, undefined, 2));
+		newRecievedMessage(JSON.stringify(data, undefined, 2));
 
 		},
 		error: function() {
