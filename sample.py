@@ -6,10 +6,12 @@ from fuzzywuzzy import process
 from snips_nlu import SnipsNLUEngine
 from snips_nlu.default_configs import CONFIG_EN
 from answer_search import AnswerSearcher
+previousslot=dict()
+previousslot["program"]=""
 
 def nluparser(text):          
     newslots = []
-
+    
     SAMPLE_DATASET_PATH = Path(__file__).parent / "dataset.json"
     with SAMPLE_DATASET_PATH.open(encoding="utf8") as f:
         sample_dataset = json.load(f) 
@@ -19,14 +21,27 @@ def nluparser(text):
     print(json.dumps(parsing, indent=2))
     intent = parsing["intent"]
     slots = parsing["slots"]
-    for i in range(len(slots)):
+    global previousslot
+    # previousslot[start]="yes"
+    if len(slots)==0 and intent!="Intro":
+        newslots.append(previousslot["program"])
+    for i in range(len(slots)): 
         slot = slots[i]["rawValue"]
+        slottype = slots[i]["entity"]
+        if slot in ["this","that","it","this program","it?",""]:
+            slot = previousslot[slottype]
+        print(slot)
+        result = fuzzy(slot)
+        print(result)
+        if result[1]<93:
+            return "No program called %s, are you trying to find %s"%(slot,result[0])
+        if result[1]>=93:
+            slot = result[0]
         slot2 = slot.replace(" ","-")
         slot2 = slot2.lower()
-        result = fuzzy(slot)
-        if result[1]!=100:
-            return "No program called %s, are you trying to find %s"%(slot,result[0])
+        previousslot[slottype]=slot2 
         newslots.append(slot2)
+    
     print(intent["intentName"])
     print(newslots)
 

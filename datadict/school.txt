@@ -1,13 +1,13 @@
-Institute of Population Health Sciences
-School of Biological and Chemical Sciences
-School of Business and Management
-School of Electronic Engineering and Computer Science
-School of History
-School of Engineering and Materials Science
-School of Languages, Linguistics and Film
-School of Politics and International Relations
 School of Mathematical Sciences
-School of Economics and Finance
-School of English and Drama
 School of Physics and Astronomy
+School of Electronic Engineering and Computer Science
+School of English and Drama
+School of Languages, Linguistics and Film
+Institute of Population Health Sciences
+School of Economics and Finance
 School of Geography
+School of Business and Management
+School of History
+School of Politics and International Relations
+School of Biological and Chemical Sciences
+School of Engineering and Materials Science

@@ -28,17 +28,17 @@ utterances:
   - What have [program](computer science) and [program](eletrical engineering) got in common?
 
 # setTemperature intent
----
-type: intent
-name: GetProgramDetail
-slots:
-  - name: program
-    entity: program
-  - name: detail
-    entity: attribution
-utterances:
-  - What is the [detail](duration) of [program](computer science) ?
-  - The [detail](duration) in the [program](computer science)
+# ---
+# type: intent
+# name: GetProgramDetail
+# slots:
+#   - name: program
+#     entity: program
+#   - name: detail
+#     entity: attribution
+# utterances:
+#   - What is the [detail](duration) of [program](computer science) ?
+#   - The [detail](duration) in the [program](computer science)
 
 ---
 type: intent
@@ -62,6 +62,7 @@ utterances:
   - What is the entry quirement of [program](computer science)?
   - The entry quirement of [program](computer science)?
   - What are the standard entry requirements of [program](computer science)?
+  - What do I need to do to qualify for admission of [program](computer science)?
     
 ---
 type: intent
@@ -70,7 +71,8 @@ slots:
   - name: program
     entity: program
 utterances:   
-  - How much will the [program](computer science) cost?
+  - How much will [program](computer science) cost?
+  - How much is the [program](computer science)?
   - How much should I pay for [program](computer science) program?
   - The payment of [program](computer science)
   - The cost of [program](computer science)

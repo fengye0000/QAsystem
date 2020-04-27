@@ -1,53 +1,1409 @@
-Europe 1000 - 1500: The Middle Ages and their Legacy
-Rebellion and the Imperial Imagination
-The Foundations of Modern Thought: Introduction to Intellectual History
-Global Encounters: Conquest and Culture in World History
-Protest and Revolution in Germany 1789 - 1989
-The “Heart of Darkness”? Identity
-Heritage After Empire: Decolonising Public History
-Piracy in World History
-Bankers and the Great West
-Kingdoms
-Arms
-Empires and Colonialism in African History
-Caste and Politics in Twentieth Century India
-Culture and Fantasy
-Japanese Film: History
-Gotham: The Making of New York City 1825-2001
-The Modern Caribbean: Migration
-From Muhammad to the Ottomans: A History of Medieval Societies
-The Reform of Islam: The Legacy of Ibn Taymiyya (1263 - 1328)
-1917-21
-Screening History: Representing the Past in the Contemporary Historical Film
-Building the American Nation: 1756-1900
-Europe in a Global Context since 1800
-Anxieties of Empire: Rumours
-Race in the United States: Slavery to Civil Rights
+Comparative Psychology
+Physics Review Project (MSci only)
+Reproductive and Developmental Biology
+Superfluids
 Reformation to Revolution: Europe and the World
-America Incorporated 1865 - 1939: Railroads
-Radicalism and Revolt
-Race and the Desire for Difference
-The War on Terr
-The Medieval World: Structures and Mentalities
-The Kennedy Years
+Essential Skills for Biochemists
+Practice-Based Research Project
+European Integration
+Japanese Film: History
+British Economic and Social Policy Since 1945 – Independent Research
+Complexity and Algorithms
+Narratives
+Basic Biochemistry: Microeconomics; Macroeconomics
+Quantitative Analytics
+Cellular Biophysics
+Molecules to Materials
+Real-Time and Critical Systems
+Mathematical Techniques 4 (MSci Only)
+Fundamentals of DSP
+Health Psychology
+Classic Papers and Current Topics in Pharmacology
+Semantics of African American Speech
+Describing Prosody
+Research Project in Pharmacology
+Business analytics
+Distributed Systems
+Scientific and laboratory Practices
+Foundations of Language (30 credits)
+Sound Recording and Production Techniques
+20th century European History I: 1900-1945; 20th century European History II: 1945-1990
+Capital Markets and Securities
+Multi-Platform Games Development
+English language and study skills
+Myth and Modernity
+Work and Employment
+Organisational Change and Development
+Relativity and Gravitation
+Costume Dramas
+The Management of Human Resources
 Arts and Agriculture: The Mexican Revolution (1900 - 1940)
-History in Practice
-The Russian Revolution and Civil War
-Life and Death in the Victorian Home
-Africa Bound: Politics
-Anglo-American Relations 1939 - 1991
-Unravelling Britain: British History since 1801
-Slaves on Horses: State and Society under the Mamluks
-1956 - 2006
-Narratives of the Raj: The History of Modern India
-1500-1800
+Topics in Physical Chemistry
+Advanced Materials Characterisation Techniques
+Constellations: Online Anthology Group Project
+Acting Theory
+Film Archaeology
+Aircraft Design
+London Global 1 (15 credits)
+Audit and Assurance
+Calculus II
+Actuarial Mathematics I
+Molecular Genetics
+Approaches and Analysis
+Creative Industries
 Africa in Europe: Renaissance Encounters
-Power and Politics in the Congo
-Cold War America 1945 – 1975
+Order and Excitations in Condensed Matter
+The Romantic Experience in Europe (1800–1840)
+Performing Illness and Disability
+Beer
+Practical Biology
+Diversity and Ecology
+1500-1800
+Lie Groups and Algebras
+Actuarial Financial Engineering
+Techniques for Biological and Chemical Sciences
+Quantum Mechanics B (MSci)
+Corporate Finance
+Introduction to Finance
+Animal and Plant Diversity
+The Political Economy of Southeast Asia
+Introduction to Engineering
+Comparative European Politics I: Context and Institutional Development
+Extended Independent Project (BSc)
+Surfaces and interfaces in Dental materials
+Practical Molecular and Cellular Biology
+Individual Project (BEng students)
+Social Action for Health
+Measure Theory and Probability
+Macroeconomic Modelling and Policy
+Particle Accelerator Physics
+Grad
+Social Theory
+Topics in Scientific Computing
+Software Engineering Project
+Political Violence and Liberal Modernity
+Innovation and Entrepreneurship
+Stellar Structure and Evolution
+Economics of Social Issues
+Race and Racism in World Politics: Independent Research
+Introduction to Hollywood Cinema and Alterantive to Hollywood cinema
+Advanced Physics Cosmology
+Advanced Photonics
+Carceral State and Social Movements
+Business
+Physics of Galaxies
+Socialist Political Thought
+Eco-cinemas: Nature
+Fairy Tales in the Modern World
+Savannah Ecology and Conservation*
+What is Cinema? Critical Approaches
+Nature
+Acoustic Analysis of Speech
+Bioorganic Chemistry
+Interactive System Design
+Shakespeare after Shakespeare
+Relativistic Waves and Quantum Fields
+Nationalism and Ethnicity in International Relations
+Introduction to Global Health part 1
+Strategic Marketing
+Communicating and Teaching Mathematics
+Financial Institutions Management
+The Microbial World and Humans
+British Economic and Social Policy since 1945: Ideas
+Introduction to Film Studies; European and American Art Cinema
+Actuarial Professional Development I
+Contemporary Issues in Business and Management
+Critical Thinking and Writing for Comparative Literature
+Introduction to Management Accounting
+Elements of Accounting
+Energy and Environment Physics
+Marine and Animal Diversity (includes field trip to Millport
+Robotics (medical robots)
+Introduction to English Syntax
+Engineering Chemistry
+Introduction to Business Information Systems
+Microeconomics 1
+Behavioural Epigenetics
+Computer aided engineering
+Boston Reworked: The Making of a North American City*
+Molecules to materials
+The Foundations of Modern Thought: Introduction to Intellectual History
+Statistics for Insurance
+Cognitive and Affective Neuroscience
+Sets and Functions
+Tissue Biology
+Sensor devices for medical applications (diagnosis
+Chemical Reaction Engineering 2
+Advanced Flight Control and Simulation of Aerospace Vehicles
+Analysing Public Policy
+Utility Systems
+amended
+Advanced Condensed Matter
+Materials Selection and Mechanical Modelling
+Spanish Language and Culture I; Spanish Language and Culture II
+div and curl: Vector Calculus for Engineering
+Cases
+Lab-on-a-chip of cartilage injury
+Comparative European Politics II – Issues and Performance
+Sex
+Clinical Measurements
+Behavioural Ecology
+Introduction to Politics; Introduction to International Relations
+Comparative European Politics I - Context and Institutional Development
+American Politics
+and Economics and Finance) – this may include a language module
+Introduction to Pharmacology
+Combustion in Automotive Engines
+Europe 1000-1500: The Middle Ages and their Legacy
+Populism: A Global Perspective
+Concepts and History
+Creative Group Project
+Urban Futures: Los Angeles and Las Vegas*
+Corporate Finance and Strategy
+Metals
+Topics in Econometrics
+Advanced Heat Transfer and Fluid Mechanics
+Extended Essay in Psychology
+Mathematics and Computing for Engineers
+Capitalism and Development
+Advanced mathematical and computing techniques essential for Engineering students
+Student Centred Learning 1
+Biological Sciences Research Project
+Species: Dinosaurs to DNA*
+Molecular Basis of Disease
+Urban Geography
+Advanced Materials Characterization Techniques
+Modern Physics
+Design of Experiments
+Comparative European Politics I – Context and Institutional Development
+Dark Matter and Dark Energy
+Stem Cells and Regenerative Medicine
+Sociolinguistic Variation and Change
+Language and Ethnicity
+Molecular Physics
+Advanced Immunology
+The Anthropocene
+Modern Political Thought 1 and 2
+Mathematical Techniques 4 (BSc only)
+Population and Chromosome Genetics
+Populism in 21st-century Europe
+Statistical Data Analysis
+Chatham House
+Foundations of Practical Chemistry
+Comparative European Politics II: Issues and Performance
+Physical and Quantum Chemistry I
+Economic Geographies
+Development Economics
+Latin American Politics
+Complex Networks
+Advanced Analytical Chemistry and Spectroscopy
+Design of robotic head with binocular vision
+Performance and Globalisation
+Ceramics
+Software Engineering
+Concepts
+Live Art: Then and Now
+Computational Statistics
+Mathematical Techniques 1
+Biomarkers in Neuroscience
+Web Programming
+Presentations of London in Modern European Literature and Film
+Robotics
+Biochemical MSci Research Project
+Implant design (design process and its application to implantable medical devices)
+Performance Composition
+Computational Engineering
+Tissue mechanics (mechanical properties and functions of tissues)
+X-rays
+Culture and Fantasy
+Introduction to Public Health and Social Medicine in Practice part 2
+Combinatorics
+Foundations of Linguistics
+Composites for Aerospace Applications
+Literature and Philosophy
+Physical Cosmology
+Quantum Electronics of Nanostructures
+Functional Programming
+Perspectives on Brain Disorders
+Energy Conversion Systems - including from renewable/sustainable sources
+Enabling Communication Technologies for IOT
+Epidemiology and Statistics for Global Health part 1
+Vector Calculus
+Firm Governance and Strategy in the Institution Context
+Film Research Project
+Advanced Quantum Field Theory
+Corporate Financial Reporting
+The Political Economy of South East Asia
+Quantum Mechanics and Symmetry (BSc Only)
+Design Studio (double module)
+Linear Programming and Games
+Physical and Quantum Chemistry
+Theory and Interpretation (30 credits)
+Option modules
+implantable devices)
+Communications Systems
+Languages of the World
+Advanced Materials Characterization
+Introduction to Literature: Texts and Contexts
+Independent Geographical Study
+Grand Tours: 19th century Adventure Stories for Young Readers and their 20th Century Afterlives
+Structure and Reactivity in Organic Chemistry II
+Metabolic Pathways
+Chromosomes and Gene Functions
+Natural Language Processing
+Computational Condensed Matter Physics
+Atom and Photon Physics
+Parasites and Infectious Disease
+Rebellion and the Imperial Imagination
+Membrane Science and Technology
+Performance
+solids and fluids
+Modernity: Theories of State
+Advanced Topics in Inorganic Chemistry
+Capital Markets 2
+Interaction and Discourse
+Advanced Biochemical Research methods
+Website Design and Authoring
+Business and History
+Causes and Prevention of Disease
+The Opposite of Science: How to analyse poems
+Epidemiology and Statistics for Global Health part 2
+Formal Semantics
+Advanced Aircraft Design
+Protest and Revolution in Germany 1789 - 1989
+Health Economics
+Numerical Computing with C and C++
+Linear Algebra I
+The Scene of Reading
+Globalisation and contemporary medical ethics
+Student Centred Learning for Chemical Engineers (double module)
+Choreographic Performance
+Verbatim
+Dance Theatre
+Finance
+A module from any other subject area across Queen Mary (excluding Business and Management
+Global Encounters: Conquest and Culture in World History
+Whole System Design in Sustainable Engineering
+Artificial Intelligence
+Topics in Biological Chemistry
+Modelling Quantum Many Body-Systems
+Citizen
+theories and ideologies
+Chemistry Research Project
+Implant Design
+C++ for Image processing
+Latin for Medievalists I
+The Ancient Human Occupation of Britain
+International Business
+The Politics of the Anti-Colonial
+Power and Legitimacy in British Politics
+Books and Longbows: the World of Medieval Objects
+Repair and Regeneration in the Nervous System
+Aspects of Meaning
+Research Methods for Global Health part 1
+Our Universe
+Business and Society
+The Human Cell
+Biomedical Physiology II
+: Introduction to Film Studies; European and American Art Cinema
+Quantitative Analysis
+Actuarial Project
+Aerospace Design
+Life and Death in the Victorian Home
+Richard the Lionheart and the Third Crusade
+Advanced Spacecraft Design: Manoeuvring and Orbital Mechanics
+Machine Learning for Visual Data Analytics
+MASS Transfer and Separation Processes 1
+Brazilian Cinema: The Social Tradition
+1956 - 2006
+Introduction to Scientific Computing
+Computer Graphics
+Contemporary Hollywood Cinema
+Mathematical Problem Solving
+Introduction to Multimedia
+Arms
+Climate change and global health policy
+Bilingualism and Multilingualism
+Synoptic Physics
+Solid Mechanics
+The Reform of Islam: The Legacy of Ibn Taymiyya (1263 - 1328)
+Society and Space
+List 3:  a list of modules in the Modern
+BMJ
+Communication in Science and Technology
+Introduction to Global Health part 2
+Spaces of Uneven Development
+Researching Everyday Politics
+Drug Development and Design
+International Finance
+Team Project (MEng students)
+Management
+Medicine and Health
+Economics and Finance in Action
+: Spanish Language and Culture I; Spanish Language and Culture II (September start only)
+Money and Banking
+Why Belgium? Identities
+Introduction to Business Studies
+Analogue Electronic Systems
+Computing
+Applied Dental Materials
+Evolutionary Genetics
+Geo-ecology and Geo-ecosystems
+Integrated Circuit Design
+The Business of Pharmacology
+Society and Economy
+Effect of osmotic pressure on ostheoarthritic joints
+Mathematics
+Introduction to Phonology
+Engineering Materials for Design
+C++ for Image Processing
+The Scene of Writing
+Biomolecules of Life
+Advanced polymer synthesis
+Communication Skills for Scientists
+Creative Brand Marketing
+Economics for Business Management
+Power Plays
+Vectors and Matrices
+Statistical Physics
+Introduction to Statistics
+Advanced GIS
+Plague-pits and Cathedrals
+Voice
+folding and assemblies
+monitoring)
+Fundamentals of Physical Chemistry
+Essential Skills for Psychologists
+Formation and Evolution
+Dynamical Systems
+Marketing or Accounting for Business Decisions
+Research Methods and Communication II
+Information Systems Analysis
+Computational Fluid Dynamics
+Immunology and Inflammation
+Gender and Politics
+Readings in Geography: Contemporary India; Geographies of Nature ; Geography
+Globalisation and Regional Development
+Philosophy of Language
+English in Use (15 credits)
+Global Politics of Health and Disease
+Spanish 1a and 1b
+Digital Marketing
+Condensed Matter A
+Network Planning
+Global Health Governance and Law
+Mathematical Techniques 4
+Global Historical Geographies
+Advanced Topics in Physical Chemistry
+Program Specifications
+Probability and Statistics I
+Advanced Environmental Engineering
+Probability Models
+Gender
+Psychology of Food
+Fundamentals of Organic Chemistry II
+Exploring Psychology I
+Classical Physics
+Academic and Professional Writing
 1757 - 1947
-From the Tsars to the Bolsheviks: Russia
-Outsiders in the Middle Ages
-c. 1870 - 2010
-1801 - 1921
+Energy Economics and Management of Sustainable Energy
+Post-Colonial Perspectives
+Digital Media and Social Networks
+Engineering Design Methods
+Foundations of Research and Critical Thinking part 2
+Design and Build Project in Electronic Engineering
+Quantum Mechanics B
+Image Processing
+Applied Economics
+Behavioral Ecology
+Kingdoms
+New York: Nature and the City*
+Marine and Animal Diversity
+Actuarial Mathematics I and II
+Faust in Legend
+Foundations of intellectual property law and management
+Organic Materials and Composites
+Interaction Design
+Comparative European Politics 1 and 2
+Mathematics B
+Elements of Statistical Learning
+Actuarial Mathematics II
+Elective module
+Introduction to Energy and Environmental Physics
+European Business Context
+Introduction to Machine Learning
+The Physics of Galaxies
+Introduction to Law for Science and Engineering
+Principles of Finance
+List 4 Special Options: this list includes all level 5 modules not already included in Lists 1 to 3 above. List 4 provision is amended and expanded as modules are proposed
+Biomedical Sciences Research Project
+Condensed Matter B
+Contemporary World Cinemas
+First World War Literatures
+Behavioural Ecology or Membrane Proteins
+Race and Racism in Performance
+Economic and Literary Dreamworlds: Independent Research
+Dynamical Analysis of Complex Systems
+Aircraft Structure
+Advance Corporate Reporting
+Techniques for Computer Vision
+Calculus I and II
 Society and Power During the Era of the Atlantic Slave Trade
+Environmental Research Methods*
+Cell Biology and Developmental Genetics
+Readings in Geography: Contemporary India; Geographies of Nature; Geography
+Thermodynamics 1
+Engineering materials for design
+The International Politics of Africa
+Gotham: The Making of New York City 1825-2001
+Introduction to Hollywood Cinema
+Structures of Spoken English
+Advanced Combustion in Reciprocating Engines
+Advanced Human Genetics and Genomics
+Fundamentals of Spectroscopy
+Computing and Data Analysis with Excel
+Economic Futures: Malaysia Emerging*
+Foundations of Finance
+Financial Mathematics I and II
+Race and Racism in World Politics
+Comparative and Integrative Physiology
+Research Methods and Statistics in Psychology II
+Business Computing
+Ice Age Britain
+War in World Politics
+Linear Algebra II
+Corporate Law and Governance
+Ecological Interactions*
+Advanced High Speed Aerodynamics
+Drug Design for Pharmacologists
+Nanotechnology and Nanomedicine
+Memories of the Holocaust and Colonialism in French Cinema
+Surgical Techniques and Safety
+Photography and Narrative
+Fundamentals of Web Technology
+Geographies of Biomedicine
+Environmental Hazards
+Dissertation project
+Experiments in contemporary Women’s Writing
+Language and Mind
+Organic Synthesis
+Molecular Biophysics
+Heat Transfer and Fluid Mechanics 2
+Independent Study Project
+Fluid mechanics in the human body (cardiovascular system)
+Design of gelatin/genipin soft scaffolds for tissue engineering
+urological tissue engineering
+Algorithms and Data Structures in an Object-Oriented Framework
+Globalisation: Issues and Debates
+Student Centred Learning for Chemical Engineers 2
+The Scene of Learning
+Innovation & Entrepreneurship
+Performance and Community
+Mathematical Techniques 2
+Mathematics and Computing for Engineers 1
+Transmission Genetics
+Fundamentals of Management Studies and Skills
+French 1a and 1b
+Introduction to English Literature; Introduction to American Literature
+Electronic Engineering Mathematics I
+Mathematical Methods in Economics and Business 1
+Slaves on Horses: State and Society under the Mamluks
+Justice in the Global City
+Cold War America 1945 – 1975
+Psychology of Creativity
+Contemporary India: Politics
+Industrial Chemistry
+Responsible Leadership
+Health Poverty Action
+Offstage London
+Migration through Photography
+Research Methods and Statistics in Psychology I
+Project Skills in the Life Sciences
+sexuality and health
+Heat Transfer and Fluid Mechanics
+Mechanics of solids (predict materials failure related to their design and properties)
+Advanced Biological Chemistry
+and Language
+Economics of Innovation and Technology
+Scriptwriting: Adaptation and Original Script
+Control Systems
+Research Methods
+MSci Financial Mathematics Project
+Data Mining
+Information Retrieval
+String Theory and Branes
+Mathematical Biology
+Introduction to Comparison
+Political Analysis
+Africa Bound: Politics
+Physics- Fields and Waves
+Physical Dynamics
+Strategy
+Functional Neuroanatomy
+statics
+Medical Physiology
+Graphical User Interfaces
+Business in Social and Historical Context
+Independent Research Project
+Modern Political Thought 1
+Computer Aided Engineering
+Slavery
+Outsiders in the Middle Ages
+Membrane and Cellular Biochemistry
+The Politics of the Post-Colonial Middle East
+Economic and Literary Dreamworlds
+Materials Science 1: Properties of Matter
+Colonialism and Postcolonialism in African Cinema
+Relativity
+Design for Manufacture
+Industrial Robotics and Mechatronics
+Engineering Conversion Systems
+Cryptography
+German Narrative Fiction in Text and Film
+Mentoring and Coaching
+Physics Research Project or Physics Investigative Project
+International Relations Theory
+Design for Manufacturing
+Applied Econometrics
+High Speed Aerodynamics
+Social Network Analysis
+Organisational Learning in the Workplace
+Introduction to Computer Programming
+Narratives of the Raj: The History of Modern India
+Engineering design methods
+Introduction of Materials Science and Engineering
+Emotion
+Quantum Computation and Communication
+Advanced Control Systems
+Medical Robotics Techniques
+Optimization of a wheelchair
+Business Internship Project
+Introduction to British Cinema
+Software Development and Quality
+Animal and Plant Diversity or Human Genetic Disorders
+Business Cycles
+Mathematical Techniques 3
+The Political Life of Security Methods
+Statistical Methods in Economics
+Apocalypse Now: Crisis
+Tissue Mechanics
+Startups and Incubators
+Power in Global Governance
+c. 1870 - 2010
+Radical Politics Today – Independent Research
+Language in the UK
+English Language and Study Skills
+Third-Year Project (BSc only)
+Partial Differential Equations
+Tissue Engineering and Regenerative Medicine
+Physiology
+Medieval London: Pubs
+Biochemistry Communication
+Advanced Human Genetic Disorders
+Design and analysis of control systems for medical applications
+Phase Transitions
+Geospatial Science
+Health Economics part 1
+Clinical Pharmacology or Infectious Diseases
+Capital Markets 1
+Applied Statistics
+Software Analysis and Verification
+: Pure Mathematics for Economics; Statistics for Economics
+Accountability and Complexity in British Government
+Development Futures: Mumbai Unbound*
+States of Matter and Analytical Chemistry
+Unfamiliar Languages
+Molecular Biophysics
+Solid State and Inorganic Chemistry
+Clinical problems in biomedical engineering and materials
+US Politics
+Skills for Electronic Engineering and Computer Science
+Advanced Human Genetic Disorders or Oral Biology for Biomedical Sciences
+Macroeconomics 1
+The Enthronement of Learning: Medieval Universities and their Legacy
+Engineering instrumentation (acquiring data from transducers and processing electronic signals)
+Homeward Bound: From the Odyssey to O Brother Where Art Thou?
+Exploring Psychology II
+Health and Well-being
+Energy Conversion Analysis
+Professional Skills and Data Analysis with SAS
+Physics Investigative Project
+Global Histories
+Principles of Financial Accounting
+Cosmology
+French Language and Culture I; French Language and Culture II
+Advanced Portfolio Theory and Risk Management
+English in Use
+Marketing Group Project involving an External Organisation
+Health systems theory and political economy
+Logic and Discrete Structures
+EITHER: Advanced Environmental Research Skills; Environmental Research Methods*; Research Design OR: Geographical Research in Practice
+New Independent Indian Cinema
+Mathematics and computing
+Introduction to Politics
+Neuromuscular Bioelectricity and Biomechanics
+Essential Foundation Mathematics
+Advanced Physical Cosmology
+Applied Linear Algebra
+Introduction to Computer Vision
+Extrasolar Planets and Astrophysical Disks
+Geographical Information Systems
+Urbanisation and Development in Sub-Saharan Africa
+Statistical Modelling II
+List 1: a list of modules in the Medieval and Early Modern Subject Area
+Shakespeare After Shakespeare
+Performance in the Gallery
+Internet Protocols and Applications
+Introduction to Differential Geometry
+Electricity and biomechanics of the neuromuscular system
+Economy and Society
+Electronic Devices and Applications
+Marketing
+Introduction to Biopsychology
+Business Technology Strategy
+Interactive Media Design and Production
+Exploring Neuroscience
+Innovation Strategy
+Arts Application Programming
+Quantum Electronics and Nanostructure
+The Galaxy
+Ecological Interactions I
+Physics Laboratory
+Advanced Practical Chemistry
+Operations Management
+Solid State and Inorganic Chemistry II
+Fundamentals of Management Studies and Skills
+Language Acquisition
+Selection of materials in relation to design and manufacturing
+New Product Development
+Corporations and Responsibility
+Computational Methods in Macroeconomic
+Place
+Environmental Economics
+Making Contemporary Theatre
+Film and Ethics
+Piracy in World History
+Graphs and Networks
+Flood Risk Management and Modelling
+Exploring Psychology
+Planetary Systems (BSc only)
+Women and Gender in Late Medieval England
+Material Mechanics
+Principles of Economics
+Vector Calculus for Engineering
+London Global II (15 credits)
+Mathematical Tools for Asset Management
+Bankers and the Great West
+Advanced Fluid Mechanics and Heat Transfer
+Anglo-American Relations 1939 - 1991
+Introduction to Marketing and Communications
+Syntactic Theory
+Semi-Structured Data and Advanced Data Modelling
+Boston Reworked: The Making of a North American City
+Geography
+Social and Environmental Accounting
+Quantum Mechanics B (BSc Only)
+Human Genetic Disorders
+Use of computer engineering applied to solids and fluids
+Strategic Management: Concepts and Cases
+Cell Biology
+Contemporary Issues
+Aspects of Robotics
+Stars
+Interventions
+Condensates and Superconductors
+Brain and Behaviour
+Social Psychology
+Cellular Pathology and Blood Science
+Drug Discovery and Design
+Biomedical Pharmacology
+History in Practice
+Security Engineering
+Engaging the Public in Science
+Science of Biocompatibility
+Supersymmetric Methods in Theoretical Physics
+Economics of Technology and Innovation
+Individual Project (BSc students)
+Modern Political Thought 2
+Disease and the City
+Mechanics of Fluids 1
+Object Oriented Programming
+Career Success for Economics and Finance Students
+Advanced Combinatorics
+Project
+Principles and Application of Medical Imaging
+Creating Interactive Objects
+Anxieties of Empire: Rumours
+Molecular signalling of circadian rhythm
+Endocrine Physiology and Biochemistry
+Digital Systems Design
+including from renewable/sustainable sources
+Fundamentals of Organic Chemistry I
+Mathematics A
+Advanced Quantum Theory
+Introduction into Politics
+Foreign Policy Analysis
+London Performance Now
+Design and Build Project in Robotics Engineering (Robotics II)
+Health Communication
+Advanced Structure-Property Relationships in Materials
+Mathematics and Computing
+Performance and Celebrity
+Electromagnetic Waves and Optics
+Advanced Robotics Systems (Robotics III)
+Physics of Energy and the Environment
+Communication Systems
+Data Analytics
+Advanced Polymer Synthesis
+Materials Selection in Design and Sustainability
+Third Year Project
+Energy conversion analysis
+Nationalism & Ethnicity in International Relations
+Statistical Modelling I
+Number Theory
+1066! The Norman Conquest
+Particle Technology and Separation Processes 2
+Human Anatomy
+Savannah Ecology and Conservation (includes field trip to the African savannas)
+Adaptations
+European Literature and its Contexts
+Financial Management
+Time Series
+Computational Chemistry
+Global Governance and International Organisation
+Calculus III
+The Senses in Performance
+Theatre Writings
+Embedded Systems
+Environmental Pollution
+Services Marketing
+Studio Practice Course Year 2
+Mechanics - covering dynamics
+Business Law
+Clinical measurements using instrumentation applied in clinical practise
+Film
+Foundations of Research and Critical Thinking part 1
+Barts Health NHS Trust
+Metric Spaces and Topology
+Ecosystem Science
+Bayesian Statistical Methods
+Screening History: Representing the Past in the Contemporary Historical Film
+Electronic Engineering Mathematics 2
+Political Economy
+C Programming
+The War on Terr
+Mathematics B  (double module across Semester 1 and 2)
+Economics
+Survival Models
+Transmission Genetics or Structure and Reactivity in Organic Chemistry II
+Quantum Mechanics and Symmetry (MSci only)
+Bayesian Statistics
+Introduction to IOT
+Engineering Instrumentation
+Systems Neuroscience
+Advanced Computing in Finance
+Statistical Mechanics
+Quantitative Analysis for Business
+Chemical Reaction Engineering 1
+Economy
+Race in the United States: Slavery to Civil Rights
+Corporate Governance and Accountability
+Third-Year Project
+Writing About the Arts
+Background to British Politics
+Introduction to International Relations
+Introduction to Scientific Programming
+Physics - Mechanics and Materials
+Psychology Research Project*
+Contemporary Russian Politics
+Galaxy Dynamics
+Modernity: Theories of the State
+Technology and Society; Global Historical Geographies OR Victorian London
+Spectatorship: Time
+Membrane Proteins
+Project Management
+Spacetime and Gravity
+Engaging the Public in Sciences
+Quaternary Palaeoenvironments
+Geographical Research in Practice
+Readings in Geography: Geographies of Nature; Geography
+Places of Performance
+London Global I  (15 credits)
+Advertising
+Communication Theory
+Sounds of English
+Mathematics B  (double module across Semester 1 and 2)
+The Medieval World: Structures and Mentalities
+Heat transfer and fluid mechanics
+Readings in Geography: Geographies of Nature OR Geography
+Essential Skills for Chemists
+Revolution and Apocalypse in the Fifteenth Century
+Introduction to Business and Management
+Europe in a Global Context since 1800
+Solar Physics
+1917-21
+clinical trials)
+MSci project
+Calculus I
+Society
+International Financial Strategy
+Accounting Skills
+Contemporary Chinese Cinemas
+Cellular and Molecular Neuroscience
+Environmental Engineering
+Constructed Languages
+Research Design
+Show Business: Theatre and Capitalism
+Introduction to Solar Energy
+The Hussites: Reform
+Climate Change and Conservation Challenges
+Extended Independent Project (BSc only)
+Introduction to Financial Accounting
+Typology and Grammatical Theory
+Network Modeling and Performance
+Mapping Contemporary Cinemas
+Surgical techniques (monitoring and operating systems used during surgery) and medical safety
+Parliamentary Studies (Internship)
+English Around the World
+The Politics of Southeast Asia
+Research and Design Team Project
+Introduction to Human Geography; The Human Geography of London
+Europe 1000 - 1500: The Middle Ages and their Legacy
+From Page to Screen
+Populism in 21st Century Europe
+Health systems
+Basic Immunology
+Biomedical Science Case Approach to Problem Solving
+Integrated Chemical Engineering Design
+Clinical Trials and Regulatory Affairs
+Medical ethics and regulatory affairs (regulatory legislation for approval of medical products/devices
+Poetry (15 credits)Reading
+Grand Tours: 19th century Adventure Stories for Young Readers and their 20th century Afterlives
+Mammals and Evolution
+Mathematical Techniques 4 (MSci only)
+Geometry I
+Advanced Microeconomics
+Financial Mathematics II
+Advanced Topics in Statistical Mechanics
+Introduction to Chemical Reaction Design
+Low Speed Aerodynamics
+Student Centred Learning
+Renewable Energy Materials
+Beyond Language
+Aerospace Structures
+Fundamentals of Inorganic Chemistry
+Geopolitics post-9/11: War
+Introduction to Financial Accounting
+Introduction to Politics and International Relations I and II
+Developmental Psychology
+Plastic Deformation of Metals
+Illness and Disability in Performance
+Communicating and Teaching Computing (UAS)
+Energy Materials
+Digital Electronics and Computer Systems
+Counselling Psychology
+Electric and Magnetic Fields
+Dissertation in Political Sociology
+Theoretical Treatment of Nano-Systems
+Design Studio
+Nurture and Mental Health
+British Cinema from the 1960s New Wave to the Arrival of Channel 4
+Mechanics covering dynamics
+Animals and the Moving Image
+1801 - 1921
+Theories for Global health and Social Medicine part 2
+Materials Chemistry
+Contemporary London: Life in the Global Metropolis
+Quantum Mechanics B (MSci only)
+MSci Project
+Enzyme Catalysis
+Building the American Nation: 1756-1900
+Supersymmetry
+Species: Dinosaurs to DNA (includes field trip to Canada)
+and Economics and Finance) - this may include a language module
+Literature and Adaption
+The Reform of Islam: the Legacy of Ibn Taymiyya (1263-1328)
+International Environmental Law
+Advanced Accounting
+Process Fluid Dynamics
+Naturalism
+Molecular Basis of Personalised Medicine
+Fluid Mechanics
+Energy conversion systems
+Islam and the West in the Middle Ages
+British Cinema from the 1960s New wave to the Arrival of Channel 4
+Financial Markets and Institutions
+Empires and Colonialism in African History
+Introduction to Public Health and Social Medicine in Practice part 1
+Techniques in Biomedical Sciences
+Materials Selection in Design
+Financial Institutions
+Photography: The Self and its Image
+Psychology of Play and Games
+: 20th century European History I: 1900-1945; 20th century European History II: 1945-1990
+Functional Genomics and Epigenetics
+Power Electronics
+Technologies in the Workplace
+Microeconomics 2
+Feeling It: Emotion and Sensation in the Theatre
+Chemistry MSci Research Project
+Clinical Solutions in Biomedical Engineering and Materials
+Algorithms and Data Structures in an Object Oriented Framework
+The International Politics of the Developing World
+Global Supply Chains
+Research Project in Neuroscience
+Individual Differences
+Economics for Business and Society
+Futures and Options
+Future Coasts*
+Team Project (MSci students)
+Applied Performance
+Introduction to Probability
+Introduction to Algebra
+Quantum Mechanics A
+Parliamentary Studies
+Dissertation
+Mathematical Methods for Theoretical Physics
+Caste and Politics in Twentieth Century India
+Sound Design
+Film Studies Research Project
+Vector calculus
+Lost in Translation?
+Radiation Detectors
+Chemical and Biological Sensors
+Applying Linguistics in the Real World
+Understanding Culture: An Introduction to Cultural Theory
+Scriptwriting: Creativity and Technique
+Finance and Management
+Theories for Global health and Social Medicine part 1
+Environmental Properties of Materials
+History and Philosophy of Psychology
+: Introduction to Business and Management; Management
+Theory of Complex Networks
+Managing Under Regulation
+Current Challenges in Business and Management II
+International Marketing
+Communications and Networks
+Tribunal
+Complex Systems
+: Introduction to Human Geography; The Human Geography of London
+Thermodynamics
+Advanced Statistics Project
+Essential mathematical skills
+The Russian Revolution and Civil War
+The Semantic Web
+Mathematics and Computing for Engineers 2
+Doing International Politics
+Mathematics for Materials Scientists
+Spacetime and Gravity (MSci only)
+Poetry (15 credit)
+Interactive Systems Design
+Signals and Information
+Solid State and Inorganic Chemistry I
+Physical and Quantum Chemistry II
+Problem Based Learning
+Project in Environmental Science
+Ecological Interactions II (includes field trip to Croatia)
+Linguistics Research Project
+Ring Theory
+Colonialism
+Alternatives to Classical Hollywood Cinema
+Bioengineering in urology (bladder mechanics and urodynamics
+Brief Encounters: Short Stories and Tall Tales
+Combustion
+Science and Politics of Climate Change
+Corporations and Social Responsibility
+Astrophysical Plasmas
+Programming in C++ for Finance
+Savannah Ecology and Conservation (includes field trip to the African savannas)
+Making Theatre and Performance
+The Crusades (1095-1291)
+Pharmaceutical Chemistry II
+policy and practice
+International Trade
+Research Methods for Global Health part 2
+Essential Mathematical Skills
 Freedom and Nationhood: The State in Post-Colonial Africa
+Compilers
+Macroeconomics 2
+Operating Systems
+Thinking Politically: Introduction to Concepts
+Selected Topics in Macroeconomics
+Contemporary Economic Issues
+Scientific Measurement
+Elementary Particle Physics
+Clinical Pharmacology and Assessment of Drug Safety
+Trading
+Big Data Processing
+Form and Function in Biology
+Quantum Mechanics and Symmetry (MSci)
+Computer Aided Engineering for Solids and Fluids
+Film Governance and Strategy in the Institution Context
+International Financial Management
+Directing Fiction
+Professional Skills for Scientists (including introduction to programming)
+Entrepreneurial Learning
+Physics review project (MSci)
+Populism: a Global Perspective
+a mathematics module at the appropriate level
+Engineering Mechanics: Dynamics
+Skills for Robotics Engineering
+Consumer Psychology
+Reading German Film III: Contemporary German Cinema
+Theories and Ideologies
+Political Research
+List 2: a list of modules in the Eighteenth Century
+Advanced Structure-property Relationships in Materials
+On the Subject of Sex II: Queen to Queer
+Particle Physics
+Finance of Emerging Markets
+Surgical Techniques & Safety
+Governance of Migration
+Group Theory
+Victorian London: Economy
+Coding Theory
+Molecules to Cells
+Cell Biology and Developmental Genetics or S
+From the Tsars to the Bolsheviks: Russia
+Gender at Work
+Corporate Finance
+Mathematical Methods in Economics and Business 2
+Past and Present
+Research Methods in Mathematical Sciences
+Film Philosophy
+Geomorphology
+Computer Systems and Networks
+Health
+The European Union
+Managing Diversity
+Mobile Services
+Issues
+Written Research Project
+Change and later Medieval Mentalities
+Current Challenges in Business and Management I
+Terrestrial Vegetation Modelling
+Capital Market 1
+Professional and Academic Development [PAD]
+Essential Skills for Biologists
+Principles of Evidence-Based Management
+Exploring Aerospace Engineering
+London Borough of Hackney
+Principles of Public Health Medicine part 1
+Cognitive Robotics (Robotics IV)
+Biomedical Physiology I
+Cultures
+Pharmaceutical Chemistry I
+Urban Futures: Los Angeles and Las Vegas.*
+Scriptwriting: Adaption and Original Script
+Economics Project
+Performing Shakespeare
+Engineering Mechanics: Statics
+Stochastic Calculus and Black-Scholes Theory
+: French Language and Culture I; French Language and Culture II (September start only)
+Random Processes
+Electromagnetic Radiation in Astrophysics
+Cancer Biology
+Microbial Physiology and Growth
+Mobile and WLAN Technologies
+Student Centred Learning 2
+Film Curation
+Language and the Media
+Physics - Electricity and Atomic Physics
+Biomedical Sciences Case Approach to Problem Solving
+Space and Justice
+Radical Politics Today
+Professional Skills for Chemists
+Algorithmic Graph Theory
+Equilibrium Analysis of Complex Systems
+Materials for dentistry applications
+Forms of Film Practice
+Engineering Methods
+Chemistry Investigative Project
+Health Economics title part 2
+Literature and the Arts
+Applied Spectroscopy
+Aircraft Propulsion
+The World of the Nun: Convent Life in Renaissance Europe
+Microwave and Millimetrewave Communications Systems
+Research Methods in Linguistics
+Aeroelasticity
+Probability and Statistics II
+Automata and Formal Languages
+Practical Biochemistry
+Environmental Remote Sensing
+Actuarial Professional Development II
+Econometrics 1
+International Corporate Reporting
+Testimonial
+Organisation Studies
+Receptors and Mechanisms of Cell Signalling
+Utopia and Dystopia: Political
+From Muhammad to the Ottomans: A History of Medieval Societies
+Computability
+Positive Psychology
+Signals and Systems Theory
+Performing Personae
+Electrical Power Engineering
+Society and Culture
+Real-Time DSP
+Nuclear Magnetic Resonance
+Differential Geometry in Theoretical Physics
+Thinking Politically: Introduction to concepts
+Research Methodology
+Introduction to Econometrics
+Gender and Performance
+Modelling and Control of Robotic Systems
+Engineering Mechanics
+Econometrics 2
+Cognitive Psychology
+Microprocessor Systems Design
+Individual Project
+London/Culture/Performance
+Explaining Grammatical Structure
+Project Risk Management
+Introduction to Digital Audio
+Telecommunication Systems
+Electrical Machines and Systems
+Development of a skin-on-a-chip culture model
+Politics of South Asia – Independent Research
+Contemporary Issues in Accounting and Ethics
+Comparative Literature Research Project
+Advanced Group Project
+Neuroscience: From Molecules to Behaviour
+Real Time DSP
+Human Resource Management
+Practice-based Research Project
+Advanced Gas Turbines
+British Economic and Social Policy Since 1945 – Ideas
+Japanese Language and Culture I; Japanese Language and Culture II
+Product Development
+Failure of Solids
+Global Ethics
+Engineering mechanics (analysis of statics and motion of particles and the forces causing these motions)
+Contemporary Strategic Analysis
+Global Business and Democracy
+Standard Model Physics and Beyond
+Displacement and Healthcare
+Advanced Trading
+The UK and the EU
+Power and Performance (seminar)
+Drug Target Identification
+Interests and Institutions
+Entrepreneurship
+Differential and Integral Analysis
+Control Systems Analysis and Design
+Public Economics
+Mathematical Methods in Economics and Finance
+Solar System
+Culture
+Unravelling Britain: British History since 1801
+Clinical Microbiology
+Ecology (includes field trip to Somerset)
+Renewable Energy Sources
+Macroeconomic Policy
+Dissertation in Politics/International Relations
+History of English
+Physics Research Project
+Ecological Interactions II (includes field trip to Croatia) or Membrane and Cellular Biochemistry
+Entrepreneurship and Sustainability Project*
+Introduction to Human Pathology
+Japanese 1a and 1b
+Marketing Principles
+Fluid Dynamics
+Group Practical Project (practice-based)
+and Economics and Finance)
+Ecological Interactions II (includes field trip to Croatia) or Membrane and Cellular Biochemistry
+Translational Pharmacology and Innovative Therapeutics
+Principles of Public Health Medicine part 2
+The East in the West
+Functional Methods in Quantum Field Theory
+Managing Human Resources
+Physics at the Nanoscale
+a module from any other subject area across Queen Mary (excluding Business and Management
+A Closer Look at Chemistry
+Design of drug-delivery capsules controlled by magnetic stimulus
+21st century Networks
+Complex Variables
+Comparative Modernisms: the Case of China and India
+Essential Biochemistry for Human Life
+Colonial Literatures
+Research Skills for Pharmacology
+Network Modelling and Performance
+Design of a glove to stabilize hand tremors
+Principles of Finance
+Sociological Analysis: Theories
+Stability and Control of Aircraft
+The Physics of Galaxies (MSci only)
+Accounting for Business
+Management Accounting for Decision Making
+The European Union: Governance and Crisis
+Introduction to Engineering (must have taken Physics in Semester 1)
+Algebraic Structures I
+A mathematics or physics module at the appropriate level
+Digital Circuit Design
+Communication in Science & Technology
+Managerial Accounting
+Structure and Reactivity in Organic Chemistry I
+Financial Mathematics I
+Social Development
+Power and Politics in the Congo
+c.1300-c.1500
+Choose from EITHER the work placement OR Public Health in Practice
+Differential Equations
+Bayesian Decision and Risk Analysis
+Technology and Society
+Critical Approaches to Psychology Research
+Medical imaging (imaging techniques for diagnosis)
+America Incorporated 1865 - 1939: Railroads
+Employment Relations
+Advanced Practical Chemistry I
+Geographies of Nature
+Materials Science 2: Processing and Applications
+Process Synthesis
+Probability and Matrices
+Procedural Programming
+Business Analytics
+Evolution
+Research Methods and Communication I
+Psychopathology
+Electronic Structure Methods
+Contemporary and Postcolonial Studies Subject
+Physics - Fields and Waves
+Digital Signal Processing
+Entrepreneurship in Information Technology
+Action Design
+Heritage After Empire: Decolonising Public History
+Inorganic Materials
+Energy Storage Engineering
+Introduction to Law for Science and Engineering (pre-requisite for IPLM702U)
+Literatures in Time (15 credits)
+Beyond Acting
+Design for Human Interaction
+Heat Transfer and Fluids Mechanics 1
+Machine Learning
+Nuclear Physics and Astrophysics
+Introduction to Computer Programming
+Eco-Cinemas: Nature
+Scotland)
+Topics in Inorganic Chemistry
+Essential Skills for Biomedical Scientists
+Romantic
+Planetary Systems
+Saladin
+Women and Gender in Medieval Islam
+Surfaces and interfaces in Biomedical Materials
+Genes and Bioinformatics
+Organisations and Identity
+Chaos and Fractals
+Numerical Optimisation in Engineering Design
+Africa and International Politics
+Theatre for the People
+Cultural Geographies
+Chemistry for Materials
+Progress in Physical Geography and Environmental Science
+Advanced Cosmology
+withdrawn and approved through the Queen Mary Quality Assurance processes.
+Research Methods (Film)
+The “Heart of Darkness”? Identity
+Corporate Financial Management
+The International Politics of Security
+Mass: Thinking Selfhood in the Modern Age
+Advanced Topics in Organic Chemistry
+Business to Business and Relationship Marketing
+Company Valuation
+Linguistic Typology and Grammatical Theory
+Advanced Environmental Research Skills
+: Introduction to Politics; Introduction to International Relations
+Security and Authentication
+Computational Methods in Macroeconomics
+Radical Politics
+Techniques for the characterization of materials (advanced microscopy
+Human Molecular Biology
+and Nineteenth Century Subject Area
+Comparative European Politics II - Issues and Performance
+Making Site-Specific Performance
+Fluid mechanics (study the transport and forces in fluids under motion conditions)
+Security
+Numbers
+Games and Strategies
+Fundamentals of Management
+International Financial Accounting
+Creative Production
+Radicalism and Revolt
+Structural Characterisation
+US Foreign Policy
+Utopia and Dystopia – Independent Research
+Professional and Research Practice
+Database Systems
+Tissue engineering and regenerative medicine (engineering tissues and cells for organ regeneration)
+Foundations of Mathematical Modelling
+Work and Employment in Context
+Politics of International Law
+Behavioural Economics
+Infection
+Mathematical Methods in Economics and Finance
+Madness
+Labour Economics
+Economics for Business
+Justice in a Global City
+Mathematical Techniques 3 (BSc only)
+Introduction to Business and Management and Comtemporary Issues in Business and Management
+Mathematical Techniques 3 (MSci only)
+Bioengineering in Urology
+: Introduction to English Literature; Introduction to American Literature
+Microwave and Millimetrewave Electronics
+Protein structure
+Health and Wellness Centre
+Quantum Mechanics and Symmetry
+Vehicular Crashworthiness
+Communication Disorders
+Polymers
+Graphical Users Interfaces
+mechanical testing)
+Convergence and Continuity
+Persuasive Strategies in Marketing
+Race and the Desire for Difference
+Business and Social Approaches to Social Media
+Microeconomics for Managers
+Space Plasma and Magnetospheric Physics
+A mathematics module at the appropriate level
+Discrete Mathematics
+World Economy
+Practical Chemistry
+Understanding and improving subcutaneous injections with Pfizer autoinjectors
+Introductory Chemistry
+Ethics and Business
+Clinical Problems in Biomedical Engineering and Materials
+Computer Simulation in Condensed Matter
+Physics Review Project (MSci)
+Subject
+Aerothermodynamics of Fluid Flows
+The Kennedy Years
+Politics of South Asia
+Cold Environments
+Fluid Mechanics of the Cardiovascular System
+Production Skills
+Control systems
+Effect of age on tendons
+Foundations of Intellectual Property Law and Management
+Advanced Pharmaceutical Chemistry
+: Japanese Language and Culture I; Japanese Language and Culture II (September start only)
+Spacecraft Design: Manoeuvring and Orbital Mechanics
+Synoptic Physics (study only)
+Manufacturing Processes
+History of Economic Thought
+The Visual Essay
+Taxation
+Collider Physics
+The French New Wave
+Society and Sustainability in London
+Corporate Strategy
+Research Methods and Communication I
+Group Projects for Physicists
+Bridging Arts and Technology
+Computational Statistics with R
+Financial Accounting
+Planetary Atmospheres
+The Modern Caribbean: Migration
+Topics in Probability and Stochastic Processes
+Explaining Phonological Structure
