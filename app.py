@@ -2,22 +2,22 @@
 from flask import Flask,jsonify,render_template,request
 import json
 import sys
-from sample import nluparser,fuzzy
+from sample import NLU
 
 app = Flask(__name__)#实例化app对象
  
 testInfo = {}
- 
+nlu = NLU()
 @app.route('/_test_post',methods=['GET','POST'])#路由
 def test_post():
     data = request.form.get("query")
-    print(data)
-    ans = nluparser(data)
+    print(data) 
+    ans = nlu.nluparser(data)
     return json.dumps(ans)
  
 @app.route('/')
 def hello_world():
-    ans = nluparser("hi")
+    ans = nlu.nluparser("hi")
     return ans
 
 @app.route('/index')
