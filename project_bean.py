@@ -16,6 +16,6 @@ class Project:
     cataglory_desc = ''
     project_desc = ''
     def __init__(self,project_name):
-        self.project_name=project_name
+        self.project_name = project_name
         
     

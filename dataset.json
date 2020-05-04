@@ -796,6 +796,33 @@
               "text": "computer science"
             }
           ]
+        },
+        {
+          "data": [
+            {
+              "text": "What's the spend of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The spend of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
         }
       ]
     },
@@ -822,6 +849,91 @@
               "entity": "program",
               "slot_name": "program",
               "text": "Eletical Engineering"
+            }
+          ]
+        }
+      ]
+    },
+    "GetUCAScode": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What is the ucas code of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "The code of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What is the code of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "ucas code for "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "ucas code of "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What's in "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " program?"
             }
           ]
         }
@@ -865,6 +977,61 @@
               "entity": "program",
               "slot_name": "program",
               "text": "computer science"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "Tell me about "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": "?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What's in "
+            },
+            {
+              "entity": "program",
+              "slot_name": "program",
+              "text": "computer science"
+            },
+            {
+              "text": " program?"
+            }
+          ]
+        }
+      ]
+    },
+    "Getschool": {
+      "utterances": [
+        {
+          "data": [
+            {
+              "text": "What school do you have?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What program do you have?"
+            }
+          ]
+        },
+        {
+          "data": [
+            {
+              "text": "What programs do you have?"
             }
           ]
         }

@@ -27,18 +27,7 @@ utterances:
   - What do [program](computer science) and [program](eletrical engineering) programs have in common?
   - What have [program](computer science) and [program](eletrical engineering) got in common?
 
-# setTemperature intent
-# ---
-# type: intent
-# name: GetProgramDetail
-# slots:
-#   - name: program
-#     entity: program
-#   - name: detail
-#     entity: attribution
-# utterances:
-#   - What is the [detail](duration) of [program](computer science) ?
-#   - The [detail](duration) in the [program](computer science)
+
 
 ---
 type: intent
@@ -76,6 +65,8 @@ utterances:
   - How much should I pay for [program](computer science) program?
   - The payment of [program](computer science)
   - The cost of [program](computer science)
+  - What's the spend of [program](computer science)?
+  - The spend of [program](computer science)
 
 ---
 type: intent
@@ -86,6 +77,7 @@ slots:
 utterances:
   - related program of [program](computer science)
   - Give me related program of [program](Eletical Engineering)
+  - similar program of [program](computer science)
 
 # GetModule intent
 ---
@@ -120,7 +112,36 @@ utterances:
   - What about [program](computer science)?
   - The [program](computer science)
   - Introduction of [program](computer science)
+  - Tell me about [program](computer science)?
+  - What's in [program](computer science) program?
+  
+---
+type: intent
+name: GetUCAScode
+slots: 
+  - name: program
+    entity: program
+utterances:
+  - What is the ucas code of [program](computer science)?
+  - The code of [program](computer science)
+  - What is the code of [program](computer science)?
+  - ucas code for [program](computer science)
+  - ucas code of [program](computer science)
+  - What's in [program](computer science) program?
+  
+---
+type: intent
+name: Getprogrambyschool
+slots: 
+  - name: school
+    entity: school
+utterances:   
+  - What program do [school](School of Economics and Finance) have?
 
+---
+type: 
+    
+    
 
 # program entity
 ---

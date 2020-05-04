@@ -26,9 +26,9 @@ def index():
  
  
 if __name__ == '__main__':
-    app.run(host='0.0.0.0',#任何ip都可以访问
-            port=5000,#端口
-            debug=True
+    app.run(host = '0.0.0.0',#任何ip都可以访问
+            port = 5000,#端口
+            debug = True
             )
 
 

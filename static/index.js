@@ -197,7 +197,7 @@ function newRecievedMessage(messageText) {
 	}
 
 	// if the message contains only <br then it is a multi line message
-	else if (removedQuotes.includes("<br")) 
+	else if (removedQuotes.includes("<cr")) 
 	{
 		multiMessage(removedQuotes);
 	} 
@@ -231,8 +231,8 @@ function multiMessage(message)
 	var listOfMessages = [];
 	
 	// Regex used to find time delay and text of each message
-	var regex = /\<br(?:\s+?(\d+))?\>(.*?)(?=(?:\<br(?:\s+\d+)?\>)|$)/g;
-
+	var regex = /\<cr(?:\s+?(\d+))?\>(.*?)(?=(?:\<cr(?:\s+\d+)?\>)|$)/g;
+	
 	// While matches are still being found in the message
 	while(matches = regex.exec(message))
 	{
@@ -386,10 +386,11 @@ function createNewMessage(message) {
 	// $('textarea').css('visibility', 'visible');
 
 	// Append a new div to the chatlogs body, with an image and the text from API.AI
+	message.replace(/&lt;br&gt;/g, '<br/>')
 	$chatlogs.append(
 		$('<div/>', {'class': 'chat friend'}).append(
 			$('<div/>', {'class': 'user-photo'}).append($('<img src="static/Images/ana.JPG" />')), 
-			$('<p/>', {'class': 'chat-message', 'text': message})));
+			$('<p/>', {'class': 'chat-message', 'html': message})));
 
 	// Find the last message in the chatlogs
 	var $newMessage = $(".chatlogs .chat").last();

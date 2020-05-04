@@ -12,8 +12,9 @@ import re
 from urllib import request
 import pymysql
 import project_bean
+from build_graph import GraphModel
 
-catagplory_list = {'computer-and-data-science','business-and-management',}
+catagplory_list = {'computer-and-data-science', 'business-and-management',}
 catagplory_pre = 'https://www.qmul.ac.uk/study/'
 content_pre = 'https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/'
 url = 'https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/biochemistry/'
@@ -23,12 +24,10 @@ def get_html(url):
     try :
         headers = {'User-Agent':'Mozilla/5.0'}
         res = request.Request(url=url, headers =headers)
-        # prin(url)
         with request.urlopen(res) as f:
             print('Enter url: ' + url)
             data = f.read()
             content = data.decode('UTF-8')
-            # print('Data:', content)
             return content
     except :
         pass
@@ -62,8 +61,6 @@ def myparser(content,full_xpath,pre):
 def content_parser(content,full_xpath):
     html = etree.HTML(content)
     courses = html.xpath(full_xpath)
-    # for i in courses:
-    #     print(i)
     return courses
 
 def content_obj_parser(content,full_xpath,details):
@@ -87,9 +84,8 @@ def content_obj_parser(content,full_xpath,details):
         elif courses[i]=='International fees':
             details.international_fees=courses[i+1]
         i=i+2
-        #text = course[i].lower()
-
     return courses
+
 #解析i:i+1 一一对应的
 def content_pair_parser(content,full_xpath):
     html = etree.HTML(content)
@@ -111,12 +107,12 @@ def store(filename,str,mode):
 #找出所有courses
 def get_full_courses(url):
     content = get_html(url)
-    areas = list_parser(content)#获得所有study areas 的url
+    areas = list_parser(content) # 获得所有study areas 的url
     areas_courses = dict()
     for area in areas:
         try:
             content = get_html(area)
-            courses = myparser(content,'/html/body/section/div[5]/div/div/ol/li/a/h4',content_pre)
+            courses = myparser(content,'/html/body/section/div[5]/div/div/ol/li/a/h4', content_pre)
             areas_courses[area] = courses
             print(areas_courses)
         except :
@@ -140,9 +136,8 @@ def get_detail(url,cataglory,desc):
             tmp = tmp.strip()
             tmp = tmp.replace(' ','-')
             p = project_bean.Project(tmp)
-            p.cataglory_desc = desc#/html/body/section[6]/div/div/div[1]/p[1]/text()grid grid--offset-xl-2-l
+            p.cataglory_desc = desc
             project_desc = content_parser(content,'//*[@class="grid grid--offset-xl-2-l"]/*/p/text()')
-            # print(project_desc)
             p.project_desc = ' '.join(project_desc)
             entryrequirement = content_pair_parser(content,'//*[@id="entry-requirements"]/div/div[2]/div/div[%s]/div[2]//*/tbody/tr/td/text()'%i)
             content_obj_parser(content,'/html/body/section[3]/div/div[1]/section[%s]/div/div/dl/*/text()'%i,p)
@@ -151,8 +146,8 @@ def get_detail(url,cataglory,desc):
             p.school = ','.join(schools)
             p.courses = ','.join(structure)
             p.entry_requirement = entryrequirement
-            project_dict[tmp]=p
-            i=i+1
+            project_dict[tmp] = p
+            i = i+1
         return project_dict
     except:
         print('error in detail')
@@ -165,12 +160,12 @@ def dbconn(project_dict,table):
     if type(project_dict) == 'NoneType':
         return 
     for key in project_dict:
-        details=project_dict[key]
+        details = project_dict[key]
         ucas = details.ucas
         error_code = '(1062, "Duplicate entry \'%s\' for key \'PRIMARY\'")'%ucas.upper()
         sql = """INSERT INTO %s(project_name,degree,duration
             , start, ucas, institution_code,typical_Alevel_offer, uk_fees, international_fees, school, courses, entry_requirement, cataglory, program, cataglory_desc, project_desc)
-            VALUES ('%s','%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
+            VALUES ('%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s', '%s')
             """%(table,details.project_name,details.degree,details.duration,details.start,details.ucas,details.institution_code,details.typical_Alevel_offer,details.uk_fees,details.international_fees,details.school,details.courses,details.entry_requirement,details.cataglory,details.program, details.cataglory_desc,details.project_desc)
         try:
             # 执行sql语句
@@ -218,36 +213,55 @@ def dbconn(project_dict,table):
 def cata_desc(url,xpath1,xpath2):
     content = get_html(url)
     descs = content_parser(content,xpath1)  
-    # print(descs)
     if len(descs)==0:
         descs = content_parser(url,xpath2)
         return ' '.join(descs)
     else:
         return ' '.join(descs)
+        
+# 批量处理
 def bunch_parse(catagplory_pre,dbtable):
     filename = 'areas_courses.json'
-#try:
     fp = open(filename,'r')
     content = fp.read()
-    #print(content)
     content = eval(content)
     for key in content:
         values = content[key]
         cata = key[len(catagplory_pre):]
-        # print(key)
-        desc = cata_desc(key,'/html/body/section/div[3]/div[2]/section/p/text()','/html/body/section/div[3]/div[2]/section/p/*/text()')
-        # print(desc)
+        desc = cata_desc(key,'/html/body/section/div[3]/div[2]/section/p/text()', '/html/body/section/div[3]/div[2]/section/p/*/text()')
         for value in values:
             try:
                 project_dict = get_detail(value,cata,desc)
                 dbconn(project_dict,dbtable)
             except Exception as e:
                 print('get detail wrong')
-            
-
     fp.close
 
+# 获取语言要求
+def get_toefl():
+    content = get_html("https://www.qmul.ac.uk/international-students/englishlanguagerequirements/undergraduate/")
+    html = etree.HTML(content)
+    schools = []
+    school_names = html.xpath("/html/body/div[3]/section/div[2]/div/div/div[1]/h4/text()")
+    school_ids = html.xpath('/html/body/div[3]/section/div[2]/div/div/@aria-controls')
+    print(school_ids)
+    for i in range(len(school_ids)):
+        result_content = {}
+        result_content["name"] = school_names[i]
+        result_content["id"] = school_ids[i]
+        requirements = html.xpath("//*[@id='%s']/div/table[1]/tbody/tr/td//text()"%school_ids[i])
+        result_content["requirement"] = "".join(requirements)
+        result_content["requirement"] = result_content["requirement"].replace("\xa0",  "")
+        schools.append(result_content)
+    return schools
 
+
+
+
+
+schools = get_toefl()
+gm = GraphModel()
+gm.change_school_nodes(schools)
 # project_dict = get_detail(' https://www.qmul.ac.uk/undergraduate/coursefinder/courses/2020/biochemistry','chemistry','ss')
 # # dbconn(project_dict,'project')
-bunch_parse(catagplory_pre,'project_copy1')
+# bunch_parse(catagplory_pre,'project_copy1')
